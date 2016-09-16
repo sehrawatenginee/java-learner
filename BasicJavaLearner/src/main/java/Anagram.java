@@ -36,6 +36,12 @@ import java.io.*;
 import java.util.*;
 public class Anagram {
 
+	/**
+	 * This method is for checking if String is Anagram.
+	 * @param A
+	 * @param B
+	 * @return
+	 */
     static boolean isAnagram(String A, String B) {
         boolean status=true;
 	if(A.length()!=B.length()){
